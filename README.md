@@ -1,4 +1,4 @@
-# IZ\*TAGRAM App
+# IZ\*TAGRAM App (React Ver.)
 
 Built using: React, Phantobuster (3rd party api).
 
