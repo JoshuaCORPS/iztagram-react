@@ -27,9 +27,32 @@
   color: #000;
 }
 
-.video-react .video-react-big-play-button {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+@media (min-width: 280px) {
+  .video-js,
+  .vjs-poster {
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+}
+@media (min-width: 320px) {
+  .video-js,
+  .vjs-poster {
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .video-js,
+  .vjs-poster {
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+}
+@media (min-width: 411px) {
+  .video-js,
+  .vjs-poster {
+    width: 100%;
+    border-radius: 0.25rem;
+  }
 }
