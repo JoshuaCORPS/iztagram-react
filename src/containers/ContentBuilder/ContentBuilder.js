@@ -49,6 +49,7 @@ class ContentBuilder extends Component {
           postPerPage={this.state.postsPerPage}
           totalPosts={this.state.contents.length}
           paginate={this.paginate}
+          currentPage={this.state.currentPage}
         />
       </Aux>
     );
