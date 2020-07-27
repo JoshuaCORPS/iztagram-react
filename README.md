@@ -12,6 +12,8 @@ Built using: React, Phantobuster (3rd party api).
 
 • Video Supported
 
+• Pagination Supported
+
 # Visit IZ\*TAGRAM
 
 https://iztagram.herokuapp.com/
