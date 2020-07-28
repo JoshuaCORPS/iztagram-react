@@ -16,4 +16,4 @@ Built using: React, Phantobuster (3rd party api).
 
 # Visit IZ\*TAGRAM
 
-https://iztagram.herokuapp.com/
+https://iztagram.vercel.app
