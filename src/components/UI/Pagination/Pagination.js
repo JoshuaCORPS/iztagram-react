@@ -14,7 +14,11 @@ const pagination = ({ postPerPage, totalPosts, paginate, currentPage }) => {
             className={`page-item ${currentPage === number && "active"}`}
             key={number}
           >
-            <button className="page-link" onClick={() => paginate(number)}>
+            <button
+              className="page-link"
+              onClick={() => paginate(number)}
+              disabled={currentPage === number && true}
+            >
               {number}
             </button>
           </li>
