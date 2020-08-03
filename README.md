@@ -1,6 +1,6 @@
 # IZ\*TAGRAM App (React Ver.)
 
-Built using: React, Phantobuster (3rd party api).
+Built using: React.js, Phantobuster (3rd party api).
 
 # About IZ\*TAGRAM
 
