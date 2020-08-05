@@ -6,7 +6,7 @@ import Pagination from "../../components/UI/Pagination/Pagination";
 import Aux from "../../hoc/Auxilliary/Auxilliary";
 import classes from "./ContentBuilder.module.css";
 
-const ContentBuilder = (props) => {
+const ContentBuilder = () => {
   const [contents, setContents] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);

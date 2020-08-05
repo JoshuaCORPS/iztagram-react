@@ -5,7 +5,7 @@ import ContentBuilder from "./containers/ContentBuilder/ContentBuilder";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-const App = (props) => {
+const App = () => {
   return (
     <div>
       <Layout>

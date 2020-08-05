@@ -1,7 +1,7 @@
 import React from "react";
 import Aux from "../../../hoc/Auxilliary/Auxilliary";
 
-const contentBody = ({ data, classes }) => {
+const ContentBody = ({ data, classes }) => {
   return (
     <Aux>
       <a href={data.profileUrl} target="_blank" rel="noopener noreferrer">
@@ -20,4 +20,4 @@ const contentBody = ({ data, classes }) => {
   );
 };
 
-export default contentBody;
+export default ContentBody;

@@ -6,7 +6,7 @@ import ButtonGroup from "react-bootstrap/ButtonGroup";
 import classes from "./Contents.module.css";
 import VideoPlayer from "react-video-js-player";
 
-const contents = (props) => {
+const Contents = (props) => {
   const cards = props.datas.map((data, i) => {
     let output = <img className="img-fluid" src={data.imgUrl} alt="izone" />;
     if (data.videoUrl)
@@ -43,4 +43,4 @@ const contents = (props) => {
   return <Aux>{cards}</Aux>;
 };
 
-export default contents;
+export default Contents;

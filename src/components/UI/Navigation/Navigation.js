@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Navigation.module.css";
 
-const navigation = (props) => (
+const Navigation = () => (
   <nav className={`navbar navbar-light ${classes.NavColor} fixed-top border`}>
     <div className="container">
       <Link className="navbar-brand mb-0 h1" to="/">
@@ -18,4 +18,4 @@ const navigation = (props) => (
   </nav>
 );
 
-export default navigation;
+export default Navigation;
