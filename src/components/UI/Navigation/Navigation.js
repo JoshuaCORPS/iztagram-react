@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./Navigation.module.css";
 
 const navigation = (props) => (
   <nav className={`navbar navbar-light ${classes.NavColor} fixed-top border`}>
     <div className="container">
-      <a className="navbar-brand mb-0 h1" href="/">
+      <Link className="navbar-brand mb-0 h1" to="/">
         <img
           className={classes.Logo}
           height="30em"
@@ -12,7 +13,7 @@ const navigation = (props) => (
           alt="iztagram logo"
         />
         <span className={classes.Sidebar}></span> <span>IZ*TAGRAM</span>
-      </a>
+      </Link>
     </div>
   </nav>
 );
